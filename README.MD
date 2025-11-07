@@ -1,4 +1,4 @@
-# Taller Extendido: Métodos Mutables de Arreglos
+# Taller: Métodos Mutables de Arreglos
 
 Resuelve los siguientes problemas utilizando los métodos de arreglos `push`, `pop`, `shift`, `unshift`, `splice`, `sort`, `reverse` y `fill`.
 
