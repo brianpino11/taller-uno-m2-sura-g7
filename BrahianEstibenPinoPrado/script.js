@@ -36,3 +36,10 @@ let fila = ["Ana", "Luis", "Carlos", "Maria"];
 fila.splice(1, 1);
 fila.splice(1, 0, "Jorge");
 console.log(fila);
+
+// Ejercicio 6: Mazo de Cartas
+
+let mazo = ["As", "Rey", "Reina", "Jota"];
+mazo.reverse();
+mazo.shift();
+console.log(mazo);
