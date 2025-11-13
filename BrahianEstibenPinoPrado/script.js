@@ -75,3 +75,11 @@ carrito.push("Camisa", "Pantalón");
 carrito.unshift("Zapatos");
 carrito.splice(1, 1);
 console.log(carrito);
+
+// Ejercicio 12: Control de Versiones (Simple)
+
+let commits = ["v1.0", "v1.1"];
+commits.push("v1.2");
+commits.pop();
+commits.push("v1.2-corregido");
+console.log(commits);
