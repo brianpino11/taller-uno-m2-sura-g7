@@ -15,3 +15,9 @@ tareas.shift();
 tareas.shift();
 console.log(tareas);
 
+// Ejercicio 3: Pila de Historial (LIFO)
+
+let historial = ["google.com", "youtube.com", "facebook.com"];
+historial.pop();
+historial.pop();
+console.log(historial);
