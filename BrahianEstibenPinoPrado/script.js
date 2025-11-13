@@ -118,3 +118,10 @@ let feed = ["Foto de Ana", "Video de Juan", "Noticia de Empresa"];
 feed.unshift("Alerta de Sistema");
 feed.pop();
 console.log(feed);
+
+// Ejercicio 18: Lista de Invitados VIP
+
+let invitados = ["Carlos", "Beatriz", "David", "Ana"];
+invitados.sort();
+invitados.splice(1, 1);
+console.log(invitados);
