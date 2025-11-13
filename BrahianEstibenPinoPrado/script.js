@@ -104,3 +104,10 @@ let equipo = ["Ana (Líder)", "Juan (Dev)", "Maria (Diseñadora)"];
 equipo.splice(1, 1);
 equipo.push("Pedro (Dev)", "Luisa (Dev)");
 console.log(equipo);
+
+// Ejercicio 16: Puestos de Estacionamiento
+
+let parking = ["CarroA", "Libre", "Libre", "CarroB"];
+parking.splice(0, 1);
+parking.splice(0, 2, "MotoA", "MotoB");
+console.log(parking);
