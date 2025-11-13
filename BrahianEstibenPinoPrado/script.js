@@ -125,3 +125,9 @@ let invitados = ["Carlos", "Beatriz", "David", "Ana"];
 invitados.sort();
 invitados.splice(1, 1);
 console.log(invitados);
+
+// Ejercicio 19: Tablero de Juego (Fill)
+
+let tablero = ["Inicio", null, null, null, null, "Fin"];
+tablero.fill("Casilla Vacía", 1, 5);
+console.log(tablero);
