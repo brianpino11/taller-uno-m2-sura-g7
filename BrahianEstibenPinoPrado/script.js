@@ -55,3 +55,9 @@ console.log(asientos);
 let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];
 productos.splice(2, 1, "Mouse Nuevo");
 console.log(productos);
+
+// Ejercicio 9: Orden Alfabético (Sort)
+
+let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];
+estudiantes.sort();
+console.log(estudiantes);
